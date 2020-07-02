@@ -1,4 +1,4 @@
-archetect render git@gitlab.ops.ripple.com:craval/go-kit-template.git
+archetect render git@github.com:archetect/archetype-go-kit.git
 
 archetect set up:
 https://archetect.github.io/
