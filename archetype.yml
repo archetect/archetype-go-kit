@@ -1,0 +1,19 @@
+---
+desciption: "Template for a Golang microservice based upon go-kit"
+authors: ["Chinmay <itschinmay@gmail.com"]
+tags: ["go", "golang", "go-kit"]
+
+script:
+  - set:
+      project_name:
+        prompt: "Project Name:"
+
+      artifact_id:
+        value: "{{ project_name }}"
+
+      default_port:
+        prompt: "Port you want to run this service:"
+
+  - render:
+      directory:
+        source: contents
